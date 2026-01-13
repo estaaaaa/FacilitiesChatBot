@@ -82,13 +82,17 @@ button:hover {
 }
 
 .facility-section {
-    max-width: 1000px;
+    max-width: none;
     margin: 2rem auto 3rem;
     padding: 2rem;
     background: rgba(46, 139, 87, 0.1);
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease;
+}
+
+.map-section {
+    max-width: 1000px;
 }
 
 .facility-section:hover {
