@@ -63,7 +63,7 @@ button:hover {
 }
 
 .facilities-container {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 2rem auto;
     padding: 0 2rem;
 }
@@ -71,7 +71,7 @@ button:hover {
 .facilities-grid {
     display: flex;
     gap: 2rem;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 2rem auto;
 }
 
@@ -92,7 +92,7 @@ button:hover {
 }
 
 .map-section {
-    max-width: 1000px;
+    max-width: 1200px;
 }
 
 .facility-section:hover {
