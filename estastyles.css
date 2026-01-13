@@ -145,8 +145,8 @@ button:hover {
 }
 
 .facility-item img {
-    width: 400px;
-    height: 250px;
+    width: 250px;
+    height: 150px;
     object-fit: cover;
     border-radius: 10px;
     margin-right: 1.5rem;
