@@ -3,7 +3,7 @@ body {
     background: linear-gradient(135deg, #ffffff 0%, #f0f8f0 100%);
     color: #2e8a56;
     margin: 0;
-    padding: 0;
+    padding: 0 2rem;
     text-align: center;
     animation: fadeIn 1s ease-in;
 }
@@ -11,6 +11,11 @@ body {
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-50px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
 }
 
 header {
@@ -83,6 +88,19 @@ button:hover {
     padding-bottom: 0.5rem;
     margin-bottom: 1.5rem;
     font-size: 1.8rem;
+}
+
+.facility-section h2 i {
+    color: #2e8b57;
+    margin-right: 0.5rem;
+}
+
+.slide-in {
+    animation: slideIn 1s ease-out;
+}
+
+.delay {
+    animation-delay: 0.5s;
 }
 
 .facility-item {
