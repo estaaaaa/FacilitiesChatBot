@@ -63,7 +63,7 @@ button:hover {
 }
 
 .facilities-container {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 2rem auto;
     padding: 0 2rem;
 }
@@ -166,6 +166,7 @@ button:hover {
 .facility-item p {
     color: #555;
     line-height: 1.6;
+    font-size: 1.1rem;
 }
 
 /* Responsive design */
